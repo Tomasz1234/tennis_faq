@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: rgb(18, 39, 6);
+}
+
+header {
+  height: 10vh;
+  background: linear-gradient(to bottom, rgb(8, 17, 3), rgb(18, 39, 6));
+  display: block;
+}
+
+h1,
+h2 {
+  font-family: "Space Grotesk", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding-top: 1.2rem;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60vw;
+  text-align: justify;
+}
+
+h2 {
+  text-align: left;
+  color: rgb(211, 140, 9);
+  display: block;
+  /* margin-bottom: 1rem; */
+}
+
+.container hr {
+  margin-bottom: 1rem;
+  height: 1px;
+}
+
+.container hr:last-child {
+  margin-top: 1rem;
+  height: 1px;
+}
+
+#rule_description {
+  color: white;
+}
