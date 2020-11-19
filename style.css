@@ -23,10 +23,10 @@ h2 {
 }
 
 .container {
-  position: absolute;
+  position: relative;
   left: 50%;
   transform: translateX(-50%);
-  width: 60vw;
+  width: 40vw;
   text-align: justify;
 }
 
@@ -49,4 +49,10 @@ h2 {
 
 #rule_description {
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 95vw;
+  }
 }
