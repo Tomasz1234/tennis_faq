@@ -10,7 +10,7 @@ const data = [
         "nazwa":"AD", "description":"Short for Advantage. It is the point scored after Deuce. If the serving side scores, it is Ad-in. If the receiving side scores, it is Ad-out."
     },
     {
-        "nazwa":"Backhand", "description":"The stroke used to return balls hit to the left side of a right-handed player (or to the right side of a left-handed player). Backhands are hit either one-handed or two-handed."
+        "nazwa":"Backhend", "description":"The stroke used to return balls hit to the left side of a right-handed player (or to the right side of a left-handed player). Backhands are hit either one-handed or two-handed."
     },
     {
         "nazwa":"Deuce", "description":"A score of 40-all, or 40-40. (This means the score is tied and each side has won at least three points.)"
@@ -49,7 +49,6 @@ const data = [
         "nazwa":"Lob", "description":"A stroke that lifts the ball high in the air, usually over the head of the opponent at the net."
     }
 ]
-
 let random_number = Math.floor(Math.random() * 10);
 rule.innerText = data[random_number].description;
 rule_name.innerText = data[random_number].nazwa;
